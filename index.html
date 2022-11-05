@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>WikiLocation</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="C" />
+    <meta name="author" content="" />
+
+    <!-- <link rel="preload" as="font" href="./style/font-webfont.woff2" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍺</text></svg>"
+    /> -->
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet.markercluster@1.1.0/dist/MarkerCluster.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet.markercluster@1.1.0/dist/MarkerCluster.Default.css"
+    />
+
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.1.0/dist/leaflet.markercluster.js"></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script> -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-ZRVZ6N8XG8"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-ZRVZ6N8XG8");
+    </script>
+
+    <!-- AdSense -->
+    <!-- <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8801495871341198"
+      crossorigin="anonymous"
+    ></script>  -->
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>Wikiaudio</h1>
+      </header>
+
+      <div class="containerMap">
+        <div class="innerDivMap">
+          <div class="divMap">
+            <div id="map"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
